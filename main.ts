@@ -1,0 +1,12 @@
+basic.forever(function () {
+    Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 0)
+    Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Red))
+    basic.pause(100)
+    Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Blue))
+    basic.pause(100)
+    Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Indigo))
+    basic.pause(100)
+    Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Orange))
+    basic.pause(100)
+    Tinybit.RGB_Car_Program().showColor(neopixel.colors(NeoPixelColors.Violet))
+})
